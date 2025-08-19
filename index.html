@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Biosynthesis</title>
+    <meta name="description" content="Discover innovative solutions for biotechnology and synthetic biology applications">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Overlay for mobile menu -->
+    <div class="overlay" id="overlay" aria-hidden="true"></div>
     
+    <header class="header">
+        <div class="header-container">
+            <!-- Company Logo -->
+            <a href="#" class="logo" aria-label="Biosynthesis Home">
+                Biosynthesi<span class="reversed-s">s</span>
+            </a>
+            
+            <!-- Mobile Toggle Button -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Navigation Menu -->
+            <nav role="navigation" aria-label="Main navigation">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" aria-current="page">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#blogs">Blog</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Auth Buttons -->
+            <div class="auth-buttons">
+                <a href="#login" class="btn btn-login" role="button">Log In</a>
+                <a href="#signup" class="btn btn-signup" role="button">Sign up Free</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1 class="hero-title">Welcome to Biosynthesis</h1>
+        <p class="hero-subtitle">Discover innovative solutions for biotechnology and synthetic biology applications.</p>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
